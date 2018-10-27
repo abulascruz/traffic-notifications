@@ -187,4 +187,4 @@ fabric.properties
 # End of https://www.gitignore.io/api/pycharm
 
 # Do not store any of the PyCharm project default
-.idea
+.idea/
