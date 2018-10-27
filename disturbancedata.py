@@ -38,8 +38,7 @@ df_data.Topic = df_data.Scope.str.replace(' ', '_')
 df_data.Topic = df_data.Topic.str.replace('å|ä', 'a')
 df_data.Topic = df_data.Topic.str.replace('ö', 'o')
 
-print(df_data.Scope)
-print(df_data.Topic)
+print(df_data)
 
 # Start FCM push notification service
 push_service = FCMNotification(api_key=os.getenv('FIREBASECLOUDSERVERAPI'))
